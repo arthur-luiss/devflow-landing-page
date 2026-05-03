@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Define fonte padrão */
+    background: #0f172a; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
+}
+
+header {
+    display: flex; /* Alinha elementos lado a lado */
+    justify-content: space-between; /* Espaço entre logo e botão */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 20px 40px; /* Espaçamento interno */
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn {
+    background: #22c55e; /* Verde chamativo */
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s; /* Suaviza animação */
+}
+
+.btn:hover {
+    background: #16a34a; /* Cor ao passar o mouse */
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: grid; /* Layout em grade */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Cria colunas responsivas automaticamente */
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efeito de subir */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 28px; /* Diminui título em telas pequenas */
+    }
+}
