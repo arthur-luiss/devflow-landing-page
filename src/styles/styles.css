@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #0f172a; /* Cor de fundo escura */
-    color: #fff; /* Cor do texto */
+    background: #fff; /* Cor de fundo escura */
+    color: #000; /* Cor do texto */
 }
 
 header {
@@ -54,6 +54,13 @@ nav {
 
 .btn:hover {
     background: #d3a008; /* Cor ao passar o mouse */
+}
+
+.main-banner{
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
 .hero {
