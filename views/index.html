@@ -1,85 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevFlow - Organize seu Código</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IronVitas - Home</title>
+  </head>
 
-<!-- Conectando os estilos a pág. -->
-<link 
-    rel="stylesheet" 
-    href="../src/styles/styles.css" 
-/>
-<!-- Conectando o script a pág. -->
-<script 
-    src="../src/script/script.js" defer>
-</script>
+  <!-- Conectando os estilos a pág. -->
+  <link rel="stylesheet" href="../src/styles/styles.css" />
+  <!-- Conectando o script a pág. -->
+  <script src="../src/script/script.js" defer></script>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <div class="navbar-container">
-                <nav>
-                    <a href="#">
-                        <img src="../src/img/logo.png" alt="Logo" class="logo">
-                    </a>
-                    <ul class="navbar-itens">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Unidades</a>
-                        </li>
-                        <li>
-                            <a href="#">Planos</a>
-                        </li>
-                        <li>
-                            <a href="#">Contato</a>
-                        </li>
-                        <li>
-                            <a href="" class="btn" onclick="comprar()">Começar Agora</a>
-                        </li>
-                    </ul>
-                </nav>
+      <header>
+        <div class="navbar-container">
+          <nav>
+            <a href="#">
+              <img src="../src/img/logo.png" alt="Logo" class="logo" />
+            </a>
+            <ul class="navbar-itens">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Unidades</a>
+              </li>
+              <li>
+                <a href="#">Planos</a>
+              </li>
+              <li>
+                <a href="#">Contato</a>
+              </li>
+              <li>
+                <a href="" class="btn" onclick="cadastro()">Começar Agora</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div class="main-banner">
+          <div class="banner-slider">
+            <a href="#"><img src="../src/img/Banner1.png" alt="Banner" /></a>
+            <a href="#"><img src="../src/img/Banner2.png" alt="Banner" /></a>
+          </div>
+          <button class="btn-prev">&#8592;</button>
+          <button class="btn-next">&#8594;</button>
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <section class="planos">
+          <h4>
+            <strong>Conheça nossos planos</strong>
+          </h4>
+
+          <p>
+            Priorize sua saúde com as soluções exclusivas da IronVitas.
+            Oferecemos
+            <br />
+            pacotes de serviços personalizados para atender às suas
+            necessidades.
+            <br />
+            Analise nossas condições e selecione o plano com o melhor custo-
+            <br />
+            benefício.
+          </p>
+
+          <div class="block-planos">
+            <div class="block">
+              <div class="card">
+                <!---->
+                <div class="tag">Melhor custo benefício</div>
+                <h5>Plano Plus</h5>
+                <div class="valor">
+                  <span>A partir de</span> <u>R$</u>4,99
+                  <em>no primeiro mês</em>
+                </div>
+                <a href="#" class="cta">Matricule-se!</a>
+                <div class="block-sva">
+                  <ul class="svas">
+                    <li><strong>Sem fidelidade</strong></li>
+                    <li><strong>Sem anuidade</strong></li>
+                    <li><strong>Clube de Benefícios Iron</strong></li>
+                    <li>Ergometria e musculação</li>
+                    <li>Horário livre</li>
+                    <li>Ginástica e dança</li>
+                    <li>Acesso ao app</li>
+                    <li>Treino liberado em todas as unidades</li>
+                    <li>Acompanhante gratuito 5x ao mês<br /></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </header>
-
-        <main>
-
-            <div class="main-banner">
-                <a href="#"><img src="../src/img/Banner1.png" alt="Banner"></a>
-                <a href="#"><img src="../src/img/Banner2.png" alt="Banner"></a>
+            <div class="block">
+              <div class="card">
+                <!---->
+                <h5>Plano Basic</h5>
+                <div class="valor">
+                  <span>A partir de</span> <u>R$</u>69,90
+                  <em>por mês</em>
+                </div>
+                <a href="#" class="cta">Matricule-se!</a>
+                <div class="block-sva">
+                  <ul class="svas">
+                    <li><strong>Sem fidelidade</strong></li>
+                    <li><strong>Sem anuidade</strong></li>
+                    <li><strong>Clube de Benefícios Iron</strong></li>
+                    <li>Ergometria e musculação</li>
+                    <li>Horário livre</li>
+                    <li>Treino liberado em todas as unidades</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-
-            <section class="hero">
-                <h1>Organize seus projetos como um profissional</h1>
-
-                <p>Gerencie tarefas, códigos e ideias em um só lugar</p>
-
-                <div class="btn" onclick="comprar()">Testar Gratuitamente</div>
-            </section>
-
-            <section class="features">
-                <div class="card">
-                    <h3>Organização Inteligente</h3>
-                    <p>Separe seus projetos por categorias e prioridades.</p>
+            <div class="block">
+              <div class="card">
+                <h5>Plano Premium</h5>
+                <div class="valor">
+                  <span>A partir de</span> <u>R$</u>119,90
+                  <em>por mês</em>
                 </div>
-
-                <div class="card">
-                    <h3>Interface Simples</h3>
-                    <p>Fácil de usar, mesmo para iniciantes.</p>
+                <a href="#" class="cta">Matricule-se!</a>
+                <div class="block-sva">
+                  <ul class="svas">
+                    <li><strong>Sem fidelidade</strong></li>
+                    <li><strong>Sem anuidade</strong></li>
+                    <li><strong>Clube de Benefícios Selfit</strong></li>
+                    <li>Ergometria e musculação</li>
+                    <li>Horário livre</li>
+                    <li>Ginástica e dança</li>
+                    <li>
+                        Treine em qualquer unidade do estado
+                    </li>
+                    <li>Acesso ao app</li>
+                    <li>Acompanhante gratuito 5x ao mês<br />&nbsp;</li>
+                  </ul>
                 </div>
-                <div class="card">
-                    <h3>Alta Performance</h3>
-                    <p>Aplicação rápida e leve para qualquer dispositivo.</p>
-                </div>
-            </section>
-        </main>
+              </div>
+            </div>
+          </div>
+          <br /><span class="planos-aviso"
+              >*Confira os valores dos planos na unidade IronVitas desejada.
+            </span>
+        </section>
 
-        <footer>
-            © 2026 DevFlow - Todos os direitos reservados
-        </footer>
+        <section class="features">
+          <div class="card">
+            <h3>Organização Inteligente</h3>
+            <p>Separe seus projetos por categorias e prioridades.</p>
+          </div>
+
+          <div class="card">
+            <h3>Interface Simples</h3>
+            <p>Fácil de usar, mesmo para iniciantes.</p>
+          </div>
+          <div class="card">
+            <h3>Alta Performance</h3>
+            <p>Aplicação rápida e leve para qualquer dispositivo.</p>
+          </div>
+        </section>
+      </main>
+
+      <footer>© 2026 DevFlow - Todos os direitos reservados</footer>
     </div>
-</body>
+  </body>
 </html>
