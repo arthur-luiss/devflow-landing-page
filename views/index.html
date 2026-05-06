@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DevFlow - Organize seu Código</title>
 </head>
+
+<!-- Conectando os estilos a pág. -->
+<link 
+    rel="stylesheet" 
+    href="../src/styles/styles.css" 
+/>
+<!-- Conectando o script a pág. -->
+<script 
+    src="../src/script/script.js" defer>
+</script>
+
 <body>
     <header>
-        <div class="logo">DevFlow</div>
-        <!-- Nome do produto -->
-
-        <div class="btn" onclick="comprar()">Começar Agora</div>
-        <!-- Botão que chama função JS -->
+        <nav class="navbar-container">
+            <div class="logo"><img src="../src/img/logo.png" alt="Logo"></div>
+            <ul class="navbar-itens">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Unidades</a>
+                </li>
+                <li>
+                    <a href="#">Planos</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+            <div class="btn" onclick="comprar()">Começar Agora</div>
+        </nav>
     </header>
 
     <section class="hero">
         <h1>Organize seus projetos como um profissional</h1>
-        <!-- Título principal -->
 
         <p>Gerencie tarefas, códigos e ideias em um só lugar</p>
-        <!-- Subtítulo -->
 
         <div class="btn" onclick="comprar()">Testar Gratuitamente</div>
     </section>
