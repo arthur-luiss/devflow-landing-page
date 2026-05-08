@@ -408,8 +408,35 @@ footer:hover{
 }
 
 /* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+    .block-planos { margin: auto; }
+}
+
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 28px; /* Diminui título em telas pequenas */
+    .block-planos { 
+        display: grid; 
+    }
+}
+
+@media (max-width: 460px) {
+    .navbar-container{
+        padding: 0;
+    }
+    .navbar-itens{
+        right: auto;
+        font-size: 15px;
+        display: none;
+    }
+
+    .planos h4 {
+        font-size: 33px;
+    }
+
+    .planos p {
+        font-size: 16px;
+    }
+
+    .sobre .card h2 {
+        font-size: 35px;
     }
 }
