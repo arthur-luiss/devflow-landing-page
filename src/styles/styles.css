@@ -318,6 +318,69 @@ p {
     font-family: Roboto, sans-serif;
 }
 
+/* SEÇÕES /3 */
+.duv {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+.duv-container {
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.duv     h4 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.duv p {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0 auto;
+}
+
+.duv .faq {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.duv .faq label {
+    border-bottom: 1px solid #ccc;
+    color: #2d2c31;
+    cursor: pointer;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 25px 20px 25px 0;
+    width: 100%;
+}
+
+.duv .faq span {
+    cursor: pointer;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 50px;
+    position: relative;
+}
+
+.faq ul {
+    display: none;
+    font-size: 18px;
+    font-weight: 400;
+    list-style: disc;
+    margin: 20px 0 0 20px;
+}
+
+/* .faq ol, .faq p, .faq .faq input {
+    display: none;
+} */
+
+/*  */
 footer {
     text-align: center;
     padding: 20px;
