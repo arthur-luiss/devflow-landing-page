@@ -423,9 +423,9 @@ footer:hover{
         padding: 0;
     }
     .navbar-itens{
-        right: auto;
-        font-size: 15px;
-        display: none;
+        /* right: auto; */
+        font-size: 10px;
+        /* display: none; */
     }
 
     .planos h4 {
@@ -436,7 +436,34 @@ footer:hover{
         font-size: 16px;
     }
 
-    .sobre .card h2 {
+    .sobre .card h2,
+    .sobre .card h3 {
         font-size: 35px;
+        margin-right: 10px;
+    }
+
+    .sobre .card p {
+        font-size: 15px;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .sobre .card h2,
+    .sobre .card h3 {
+        font-size: 20px;
+    }
+
+    .navbar-itens{
+        display: none;   
+    }
+}
+
+@media (max-width: 330px) {
+    .block-planos .card .tag {
+        font-size: 10px;
     }
 }
