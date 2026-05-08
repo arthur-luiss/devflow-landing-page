@@ -392,7 +392,7 @@ input[type="radio"] {
 input[type="radio"]:checked ~ ul { display: block; }
 input[type="radio"]:checked ~ p  { display: block; }
 
-/*  */
+/* Footer */
 footer {
     background-color: #000;
     color: #c2c2c2;
@@ -423,9 +423,7 @@ footer:hover{
         padding: 0;
     }
     .navbar-itens{
-        /* right: auto; */
         font-size: 10px;
-        /* display: none; */
     }
 
     .planos h4 {
