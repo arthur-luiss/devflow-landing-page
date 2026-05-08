@@ -341,12 +341,12 @@ p {
     margin: 0 auto;
 }
 
-.duv .faq {
+.duv .accordion {
     margin: 0 auto;
     padding-top: 20px;
 }
 
-.duv .faq label {
+.duv .accordion label {
     border-bottom: 1px solid #ccc;
     color: #2d2c31;
     cursor: pointer;
@@ -358,7 +358,7 @@ p {
     width: 100%;
 }
 
-.duv .faq span {
+.duv .accordion span {
     cursor: pointer;
     display: block;
     font-family: Roboto, sans-serif;
@@ -368,7 +368,7 @@ p {
     position: relative;
 }
 
-.faq ul {
+.accordion ul {
     display: none;
     font-size: 18px;
     font-weight: 400;
@@ -376,16 +376,35 @@ p {
     margin: 20px 0 0 20px;
 }
 
-/* .faq ol, .faq p, .faq .faq input {
+.accordion li {
+    padding-bottom: 20px;
+}
+
+.accordion ol, .accordion p, .accordion .accordion input {
     display: none;
-} */
+}
+
+input[type="radio"] {
+  visibility: hidden;
+  position: absolute;
+}
+
+input[type="radio"]:checked ~ ul { display: block; }
+input[type="radio"]:checked ~ p  { display: block; }
 
 /*  */
 footer {
+    background-color: #000;
+    color: #c2c2c2;
     text-align: center;
     padding: 20px;
     font-size: 14px;
+    transition: 2s;
     opacity: 0.7;
+}
+
+footer:hover{
+    opacity: 1;
 }
 
 /* RESPONSIVIDADE */
