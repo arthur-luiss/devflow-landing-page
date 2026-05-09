@@ -27,4 +27,4 @@ A proposta do projeto foi praticar conceitos fundamentais de desenvolvimento web
 
 ## 🌐 Acesse o Projeto
 
-🔗[Clique aqui para acessar](https://arthur-luiss.github.io/ironVitas-landing-page/)
+🔗[Clique aqui para acessar](https://arthur-luiss.github.io/ironVitas-interface-resp/)
