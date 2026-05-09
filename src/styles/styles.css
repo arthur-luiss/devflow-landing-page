@@ -111,8 +111,8 @@ nav {
 }
 
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background: rgba(255,255,255,0.5);
   border-radius: 50%;
   cursor: pointer;
@@ -424,6 +424,14 @@ footer:hover{
     }
     .navbar-itens{
         font-size: 10px;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .dot.active{
+        display: none;
     }
 
     .planos h4 {
