@@ -1,4 +1,4 @@
-# 🏋️ IronVitas - Landing Page Comercial
+# 🏋️ IronVitas - Interface Responsiva
 
 Projeto front-end desenvolvido para simular a página comercial de uma academia moderna.
 
